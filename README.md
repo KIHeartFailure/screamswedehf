@@ -1,4 +1,4 @@
-# R code for the data managment on SwedeHF for SCREAM
+# R code for the data managment on SwedeHF for SCREAM 2
 
 The aim of this R code is to be transparent and document the data handling 
 and statistical analyses performed.

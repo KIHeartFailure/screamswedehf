@@ -6,7 +6,8 @@ shfdata <- shfdata %>%
     shf_source, shf_indexdtm, shf_indexhosptime, shf_indexyear, shf_type,
     contains("shf_ef"),
     contains("shf_"),
-  )
+  ) %>%
+  rename(lopnr = LopNr) # for compatibility with other data
 
 shfdata <- shfdata %>%
   mutate(across(where(is.character), as.factor))
